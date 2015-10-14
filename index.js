@@ -1,4 +1,10 @@
 var domify = require('domify');
+
+/*
+git remote add origin https://github.com/hollowdoor/dom_from.git
+git push -u origin master
+*/
+
 module.exports = function(el, doc){
     var frag, type, i;
 
