@@ -20,7 +20,7 @@ Usage
     <ul></ul>
     <div id="box2"></div>
     <script>
-    var domFrom = require('../'),
+    var domFrom = require('dom-from'),
         box = document.getElementById('box'),
         li = document.createElement('li'),
         list = [];
