@@ -20,6 +20,8 @@ module.exports = function(el, doc){
         }
         type = Object.prototype.toString.call(el);
         if(type === '[object Object]'){
+            if(el.root && !isNaN(el.root.nodeType) && el.nodeType > 0)
+                return el.root;
             if(el.length){
                 frag = doc.createDocumentFragment();
                 for(i=0; i<el.length; i++){
