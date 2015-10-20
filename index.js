@@ -15,7 +15,7 @@ module.exports = function(el, doc){
     if(typeof el === 'string'){
         return domify(el, doc);
     }else{
-        if(!isNaN(el.nodeType) && el.nodeType > 0){
+        if(el !== undefined && !isNaN(el.nodeType) && el.nodeType > 0){
             return el;
         }
         type = Object.prototype.toString.call(el);
