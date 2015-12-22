@@ -1,6 +1,6 @@
 {
   "name": "dom-from",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create a dom element from something",
   "main": "index.js",
   "directories": {
@@ -18,5 +18,9 @@
   "license": "MIT",
   "dependencies": {
     "domify": "^1.4.0"
-  }
+  },
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/hollowdoor/dom_from.git"
+    }
 }
